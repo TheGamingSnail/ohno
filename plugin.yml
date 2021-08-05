@@ -5,12 +5,3 @@ api: 3.22.1
 mcpe-protocol: 448
 author: GamingSnail7410
 description: AAAAAAAAAAAAAAAAAAAA
-commands:
-  test:
-    description: AAAAAAAA
-    alias: ts
-    permission: ohno.command
-permissions:
-  ohno.command
-  description: AAAAAAAAAA
-  default: op
