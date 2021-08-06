@@ -12,7 +12,7 @@ use pocketmine\Server;
 
 use pocketmine\event\Listener;
 
-class Main extends PluginBase implements Listener(){
+class Main extends PluginBase implements Listener{
 
 public function onEnable(){
   $this->getLogger()->info("hope this works!")
