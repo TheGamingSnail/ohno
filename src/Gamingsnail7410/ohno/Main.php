@@ -16,6 +16,7 @@ class Main extends PluginBase implements Listener{
 
 public function onEnable(){
   $this->getLogger()->info("hope this works!")
+    
  }
 
 public function onJoin(PlayerJoinEvent $event){
@@ -23,6 +24,7 @@ public function onJoin(PlayerJoinEvent $event){
   $name = $player->getName();
   
   $this->getServer()->broadcastMessage("Hello $name, nice to see you!")
+    
  }
 
 }
