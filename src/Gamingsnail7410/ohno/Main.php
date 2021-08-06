@@ -15,7 +15,7 @@ use pocketmine\event\Listener;
 class Main extends PluginBase implements Listener{
 
 public function onEnable(){
-  $this->getLogger()->info("hope this works!")
+  $this->getLogger()->info("hope this works!");
 
   }
 
@@ -23,7 +23,7 @@ public function onJoin(PlayerJoinEvent $event){
   $player = $event->getPlayer();
   $name = $player->getName();
   
-  $this->getServer()->broadcastMessage("Hello $name, nice to see you!")
+  $this->getServer()->broadcastMessage("Hello $name, nice to see you!");
   
   }
 
