@@ -1,6 +1,6 @@
 <?php
 
-namespace GamingSnail7410\ohno;
+namespace Gamingsnail7410\ohno;
 
 use pocketmine\plugin\PluginBase;
 
